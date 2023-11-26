@@ -1,0 +1,145 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+    height: auto;
+    background-color: #FAEED1;
+}
+
+.back{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.img{
+
+width: 40%;
+}
+.aks{
+    background-color: white;
+}
+h1{
+    font-size: 90px;
+    font-family: 'Sacramento', cursive;
+    position: relative;
+    text-align: center;
+    margin-top: 10%;
+ margin-bottom: 0;
+}
+ p{
+    font-size: 30px;
+    font-family:cursive;
+    text-align: center;
+    position: relative;
+    margin-bottom: 8%;
+} 
+.img1{
+    border-radius: 50%;
+    position: relative;
+margin-top: 5%;
+
+}
+.aks h2{
+    font-family: cursive;
+    font-size: 40px;
+    text-align: center;
+}
+.flip{
+    width: 40%;
+    transform: scaleY(-1);
+    position: relative;
+    bottom: 30%;
+}
+.aks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.hi{
+    font-family: cursive;
+    margin-bottom: 10%;
+}
+.one{
+    
+    grid-area: 1/1/1/1;
+}
+.two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    grid-area: 1/2/1/2;
+}
+.four{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    grid-area: 2/1/2/1;
+}
+.three{
+    grid-area: 2/2/2/2;
+}
+
+.joh{
+display: grid;
+grid-template-columns: repeat(2,1fr);
+grid-template-rows: repeat(2,1fr);
+gap:5%;
+}
+.two h2{
+    text-align: center;
+    font-family:cursive;
+    
+}
+.four h2{
+    text-align: center;
+    font-family: cursive;
+    
+}
+.cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.btn{
+    padding: 1%;
+    width: 10%;
+    background-color: #B99470;
+    font-weight: bold;
+    border: none;
+ 
+    border-radius: 50%;
+}
+a{
+    text-decoration: none;
+    color: azure;
+}
+.move{
+    width: 100%; 
+    display: inline-block;  
+    align-self: center; 
+    position: relative;
+    overflow: hidden;
+
+}
+.joh p{
+    font-size:20px ;
+}
+.bottom-container{
+    margin-top: 10%;
+    height: 10vh;
+    background-color: #B99470;
+    color: white;
+    display: flex;
+    justify-content: center;
+ 
+ 
+    
+}
+
